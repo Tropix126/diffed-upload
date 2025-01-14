@@ -1,0 +1,11 @@
+[package]
+name = "diffed-upload"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bidiff = { version = "1.0.0", features = ["enc"] }
+crc = "3.2.1"
+flate2 = "1.0.35"
+tokio = { version = "1.23.0", features = ["full"] }
+vex-v5-serial = "0.3.0"
